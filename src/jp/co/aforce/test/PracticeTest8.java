@@ -25,8 +25,6 @@ public class PracticeTest8 {
 
 	public void printMessage() {
 
-
-
 	}
 
 	private double printRectangleArea(double height, double width) {
@@ -34,6 +32,14 @@ public class PracticeTest8 {
 		return height * width;
 	}
 
+	public void isEventNumber(int value) {
 
+		if (value % 2 == 0) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
+
+	}
 
 }
